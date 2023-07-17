@@ -1,6 +1,6 @@
 # Web Scraping and Data Processing for Laptop Products
 
-This repository contains Python code for web scraping laptop products from a popular online retailer, 'www.rueducommerce.fr'. The code uses Selenium and BeautifulSoup libraries to extract laptop information from the website. The scraped data is then processed and features are extracted to prepare a cleaned dataset for further analysis (like comparison between online stores which is the purpose of this project or you can make it for your own needs).
+This repository contains Python code for web scraping laptop products from a popular online retailer. The code uses Selenium and BeautifulSoup libraries to extract laptop information from the website. The scraped data is then processed and features are extracted to prepare a cleaned dataset for further analysis (like comparison between online stores which is the purpose of this project or you can make it for your own needs).
 
 ## Requirements
 - Python 
@@ -30,4 +30,4 @@ Finally, the data is cleaned, and any remaining special characters in the 'Ecran
 4. Prepare the 'urls.txt' file with categories and corresponding URLs for the products you want to scrape.
 5. Run the script, and it will fetch and process the laptop products from the given URLs.
 
-Please note that this code is tailored to the specific website 'www.rueducommerce.fr' and may need modifications if used for scraping other websites. Also, be considerate and adhere to the website's terms of service while web scraping.
+Please note that this code is tailored to the specific website mentionned in the code and may need modifications if used for scraping other websites. Also, be considerate and adhere to the website's terms of service while web scraping.
