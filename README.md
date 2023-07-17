@@ -9,7 +9,7 @@ This repository contains Python code for web scraping laptop products from a pop
 - Chrome WebDriver (Downloaded and placed at "C:/Users/asus/Desktop/chromedriver.exe")
 
 ## Web Scraping
-The web scraping code in this repository retrieves laptop product information from the website 'www.rueducommerce.fr'. The `get_products_from_page` function is responsible for scraping data from a given URL and category. The function retrieves product names, links, promotional and original prices, and descriptions. The data is then stored in a list of dictionaries named 'products'.
+The web scraping code in this repository retrieves laptop product informations. The `get_products_from_page` function is responsible for scraping data from a given URL and category. The function retrieves product names, links, promotional and original prices, and descriptions. The data is then stored in a list of dictionaries named 'products'.
 
 ## Fetching All Products
 The `get_all_products` function reads the URLs and corresponding categories from a file named 'urls.txt'. It then iterates through each URL, fetching the respective products using the web scraping function. The function allows for a specific waiting time and a number of retries in case of timeouts.
